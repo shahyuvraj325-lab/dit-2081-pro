@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Design a Sign-up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #889c1a;
+        }
+
+        .signup-box {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #333;   /* TOTAL SIDE BORDER */
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 200px;
+            padding: 5px;
+        }
+
+        .dob-box select {
+            width: 65px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="signup-box">
+    <h1>Sign-Up</h1>
+
+    <form>
+        <label>Name :</label>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Address :</label>
+        <input type="text" placeholder="Enter your address"><br><br>
+
+        <label>Email :</label>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Date of Birth :</label>
+        <div class="dob-box">
+            <select>
+                <option>Year</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+            </select>
+
+            <select>
+                <option>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+            </select>
+
+            <select>
+                <option>Date</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+
+        <br><br>
+
+        <label>Password :</label>
+        <input type="password" placeholder="Enter your password"><br><br>
+
+        <button type="submit">Save</button>
+        <button type="reset">Reset</button>
+    </form>
+</div>
+
+</body>
+</html>
