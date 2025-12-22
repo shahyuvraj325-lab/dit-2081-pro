@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Layout</title>
+</head>
+ <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            height: 300px;
+        }
+        td {
+            border: 2px solid green;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 25px;
+        }
+    </style>
+<body>
+
+<table>
+    <tr>
+        <td rowspan="3">a1</td>
+        <td>b1</td>
+        <td>c1</td>
+        <td>d1</td>
+    </tr>
+    <tr>
+        <td>b2</td>
+        <td>c2</td>
+        <td>d2</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">b3</td>
+        <td>d3</td>
+    </tr>
+    <tr>
+        <td>a4</td>
+        <td>d4</td>
+    </tr>
+</table>
+
+</body>
+</html>
