@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yuvraj - Student Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      transition: all 0.3s ease;
+    }
+
+    body {
+      background: #eef2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      color: #4a90e2;
+      border-bottom: 2px solid #4a90e2;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* Skills Section */
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills li {
+      background: #4a90e2;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .skills li:hover {
+      background: #357ab8;
+      transform: scale(1.1);
+    }
+
+    /* Projects Section */
+    .projects img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #4a90e2;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .projects img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Links hover effect */
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #357ab8;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4a90e2;
+      color: #fff;
+      margin-top: 20px;
+    }
+
+    /* Responsive for mobile */
+    @media (max-width: 600px) {
+      .skills ul {
+        flex-direction: column;
+      }
+      .projects img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yuvraj</h1>
+    <p>Student | Aspiring Web Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I am Yuvraj, a student passionate about learning web development. I enjoy creating simple and clean websites using HTML and CSS.
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (Learning)</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <p>Project 1: Personal Website</p>
+    <img src="" alt="yuvraj">
+
+    <p>Project 2: Portfolio Layout</p>
+    <img src="" alt="yuvraj">
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+
+    <p>
+      📧 Email: 
+      <a href="mailto:yuvraj@gmail.com">yuvraj@gmail.com</a>
+    </p>
+
+    <p>
+      📱 WhatsApp: 
+      <a href="https://wa.me/9779812345678" target="_blank">+977 9812345678</a>
+    </p>
+
+    <p>
+      LinkedIn: 
+      <a href="https://www.linkedin.com/in/yuvraj" target="_blank">linkedin.com/in/yuvraj</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Yuvraj | Student Portfolio</p>
+  </footer>
+
+</body>
+</html>

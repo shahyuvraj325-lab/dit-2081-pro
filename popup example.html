@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Popup Example</title>
+</head>
+<body>
+    <h1>JavaScript Popup Examples</h1>
+
+   <!--<button onclick="showAlert()">Show Alert</button>-->
+    <button onclick="showPrompt()">Show Prompt</button>
+    <!--<button onclick="showConfirm()">Show Confirm</button>-->
+
+    <script>
+        // 1. Alert Box
+       // function showAlert() {
+           // alert("Hello! This is an Alert Box.");
+        //}
+
+        // 2. Prompt Box
+        function showPrompt() {
+            const name = prompt("What is your name?");
+            if (name) {
+                alert("Hello, " + name + "!");
+            } else {
+                alert("You did not enter a name.");
+            }
+        }
+
+       /* // 3. Confirm Box
+        function showConfirm() {
+            const reply = confirm("Do you want to proceed?");
+            if (reply) {
+                alert("You clicked OK!");
+                console.log("User clicked OK");
+            } else {
+                alert("You clicked Cancel!");
+                console.log("User clicked Cancel");
+            }
+        } */
+    </script>
+</body>
+</html>
